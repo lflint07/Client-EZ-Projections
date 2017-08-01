@@ -1,0 +1,453 @@
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Start Body */
+body {
+  font: 16px/1.5 "Trebuchet MS", Verdana, sans-serif;
+  font-size: 8px;
+  width: 960px;
+
+}
+
+title {
+  font-size: 50px;
+  text-align: center;
+}
+
+/* End Body */
+
+/*Start Tables*/
+
+.page-wrap {
+  background-color: rgba(200, 200, 100, 0.5);
+  border: 1px solid black;
+
+
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Start Assumption Table */
+.assumptionTable {
+  border: 1px solid black;
+
+}
+
+.assumptionTableInput {
+
+}
+
+.assumptionTableProduct {
+}
+
+.productEdit {
+}
+/* Finish Assumption Table */
+
+/* Start Fixed Assumption Table */
+.fixedAssumptionTable  {
+  background-color: #e6f9ff;
+  border: 1px solid black;
+  display: inline;
+  height: 300px;
+  table-layout: auto;
+  width: 100%;
+}
+
+.assumptions-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  height: 0 auto;
+  width: 100%;
+}
+
+.assumption {
+  background-color: #ffffff;
+  border: 1px solid black;
+  flex-basis: calc(33.333% - 20px);
+  margin: 3px;
+  width: 100%;
+
+}
+
+.fixedAssumptionName {
+  background-color: yellow;
+  border: 1px solid black;
+  display: inline-grid;
+  font-size: 8px;
+  width: 50px;
+}
+
+.fixedAssumptionCategory {
+  border: 1px solid black;
+  display: inline-grid;
+  font-size: 8px;
+  width: 30px;
+}
+
+.fixedAssumptionValue {
+  border: 1px solid black;
+  display: inline-grid;
+  font-size: 8px;
+  width: 30px;
+
+}
+
+
+/* .fixedAssumptionTable table {
+  background-color: green;
+  border-collapse: collapse;
+  display: inline-block;
+  position: relative;
+  table-layout: fixed;
+  min-width: 900px;
+} */
+
+.fixedAssumptionTable td {
+  border: 1px solid black;
+  width: 100px;
+  word-wrap: break-word;
+}
+
+/* .fixedAssumptionTableHeader {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.fixedAssumptionTable h2 {
+  font-size: 30px;
+  text-align: center;
+  margin: 1px;
+}
+
+.fixedAssumptionInput {
+  background-color: red;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  min-width: 800px;
+}
+
+.fixedAssumptionTableHeader {
+}
+
+.fixedAssumptionInputTableHeader {
+
+}
+.fixedAssumptionTableEdit {
+  background-color: #ffffcc;
+  border: 2px solid black;
+  display: inline-block;
+  margin: 10px;
+}
+
+.fixedAssumptionTableEdit:first-child {
+  background-color: green;
+  display: inline-block;
+}
+
+.fixedAssumptionTableName {
+  background-color: #e6ccff;
+
+}
+
+.fixedAssumptionTableValue {
+  background-color: #ff66cc;
+
+}
+
+.fixedAssumptionTableCategory {
+  background-color: #e6ccff;
+}
+/*
+/* Finish Fixed Assumption Table */
+
+/* Start Employee Table */
+.employeeTable {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+/* Finish Employee Table */
+
+/*Start Forms*/
+
+form {
+
+}
+
+input {
+  font: 8px/1 Verdana, sans-serif;
+  border: none;
+  margin: 3px;
+  padding: 3px;
+  border: 1px solid black;
+  /*width: 80px;*/
+}
+
+input:hover {
+  background-color: #eee;
+}
+
+input:focus {
+  background-color: #ccf;
+  text-align: center;
+}
+
+input:not(:focus){
+  text-align: right;
+}
+
+.employee-input {
+  width: 31px;
+  margin: 0px;
+}
+
+/*End Forms*/
+
+/* Start Buttons */
+
+button {
+  font: 7px/1 Verdana, sans-serif;
+}
+
+/* End Buttons */
+
+/* Start Dashboard */
+.dashboard {
+  background-image: linear-gradient(#f2f2f2, #f2f2f2);
+}
+
+.dashboardItem {
+  margin: 20px auto;
+
+}
+
+/* Begin Inventory */
+
+.inventory table {
+  font-size: 6px;
+  table-layout: auto;
+  width: 100%;
+}
+
+.inventoryProductTable {
+  border: 1px solid black;
+}
+
+.inventoryProductColumn {
+  background-color: #990000;
+  border: 1px solid black;
+  color: white;
+
+}
+
+.inventoryProductHeader {
+  border: 1px solid black;
+}
+
+.inventoryProductInputName, .inventoryProductInputUnitsSold, .inventoryProductInputUnitsAdded {
+  background-color: #ffb3b3;
+  border: 1px solid black;
+
+}
+
+.inventoryProductInputRemaining {
+  background-color: #ff4d4d;
+  border: 1px solid black;
+  color: #ffffff;
+}
+
+.inventoryProductInput {
+  border: 1px solid black;
+
+}
+/* End Inventory */
+
+/* Begin Sales Detail */
+
+.salesDetail table {
+  font-size: 6px;
+  table-layout: auto;
+  width: 100%;
+}
+
+.salesDetailHeader {
+  background-color: #2a7f32;
+  border: 1px solid black;
+  color: #ffffff;
+}
+
+.salesDetailInputName {
+  background-color: #d1ffd2;
+  border: 1px solid black;
+}
+
+.salesDetailInputUnitsSold {
+  background-color: #d1ffd2;
+  border: 1px solid black;
+}
+
+.salesDetailInput {
+  border: 1px solid black;
+}
+
+/* End Sales Detail */
+
+/* Start Cost Detail */
+
+.costDetail table {
+  font-size: 6px;
+  table-layout: auto;
+  width: 100%;
+
+}
+
+.costDetailHeader {
+  background-color: #006bb3;
+  border: 1px solid black;
+  color: white;
+}
+
+.costDetailInputUnitsOrdered, .costDetailInputTotalCost, .costDetailInputCostUnit {
+  background-color: #ccebff;
+  border: 1px solid black;
+}
+
+.costDetailInputProductName {
+  background-color: #008ae6;
+  border: 1px solid black;
+  color: white;
+}
+
+.costDetailInput {
+  border: 1px solid black;
+}
+
+/* End Cost Detail */
+
+/* Start Profit Loss Statement */
+
+.profitLossStatement table {
+  border: 1px solid black;
+  font-size: 6px;
+  table-layout: auto;
+  width: 100%;
+}
+
+.profitLossStatementHeader {
+  background-color: #990000;
+  border: 1px solid black;
+  color: #ffffff;
+}
+
+.profitLossStatementTotalIncome, .profitLossStatementInputGrossMargin, .profitLossStatementInputTotalExpenses, .profitLossStatementInputEBITDA {
+  background-color: #ff4d4d;
+  border: 1px solid black;
+  color: #ffffff;
+}
+
+
+.profitLossStatementInput {
+  background-color: #ffb3b3;
+  border: 1px solid black;
+}
+
+/* End Profit Loss Statement */
+
+/* Balance Sheet */
+
+.balanceSheet table {
+  background-color: #d1ffd2;
+  border: 1px solid black;
+  font-size: 6px;
+  table-layout: auto;
+  width: 100%;
+}
+
+.balanceSheetInputTitleRow, .balanceSheetInputHeader, .balanceSheetInputColumns {
+  background-color: #2a7f32;
+  border: 1px solid black;
+  color: #ffffff;
+
+}
+
+.balanceSheetInputCash {
+  border: 1px solid black;
+}
+
+.balanceSheetInputAR {
+  border: 1px solid black;
+}
+
+.balanceSheetInputInventory {
+  border: 1px solid black;
+}
+
+.balanceSheetInputOther, .balanceSheetTotalCurrentAssets {
+  border: 1px solid black;
+}
+.balanceSheetInputAP {
+  border: 1px solid black;
+}
+
+.balanceSheetInputRetainedEarnings, .balanceSheetInputCapitalStock {
+  border: 1px solid black;
+}
+
+.balanceSheetInputAssets, .balanceSheetInputLiabilitiesOwnersEquity, .balanceSheetInputLiabilities, .balanceSheetInputOwnersEquity {
+  background-color:  #29a329 ;
+  border: 1px solid black;
+}
+
+.balanceSheetTotalAssets, .balanceSheetTotalCurrentAssets, .balanceSheetInputTotalLiabilities, .balanceSheetInputTotalOwnersEquity, .balanceSheetInputTotalLiabilityAndEquity {
+  background-color: #196719;
+  border: 1px solid black;
+  color: white;
+}
+/* End Balance Sheet */
+
+/* Start Cash Flow */
+
+.cashFlow table {
+  font-size: 6px;
+  table-layout: auto;
+  width: 100%;
+}
+
+.cashFlowInput {
+  background-color: #ccebff;
+  border: 1px solid black;
+}
+
+
+.cashFlowInputHeader {
+  background-color: #006bb3;
+  border: 1px solid black;
+  color: #ffffff;
+}
+
+.cashFlowInputTotalCashInflows, .cashFlowInputTotalCashOutflows, .cashFlowInputEndingCashBalance  {
+  background-color: #008ae6;
+  border: 1px solid black;
+  color: #ffffff;
+}
+
+.cashFlowInputCashInflowsTitle, .cashFlowInputCashOutflowsTitle {
+  background-color: #008ae6;
+  border: 1px solid black;
+  color: #ffffff;
+}
+
+/* End Cash Flow */
+
+/* End Dashboard */
+
+/* End EZ Projections */
